@@ -1,6 +1,6 @@
 variable "aws_region" {
   description = "The AWS region to create things in."
-  default     = "eu-west-3"
+  default     = "us-east-2"
 }
 
 variable "key_name" {
@@ -15,7 +15,7 @@ variable "instance_type" {
 
 variable "security_group" {
   description = "Name of security group"
-  default     = "my-jenkins-security-group"
+  default     = "project-jenkins-security-group"
 }
 
 variable "tag_name" {
