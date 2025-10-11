@@ -15,7 +15,7 @@ variable "instance_type" {
 
 variable "security_group" {
   description = "Name of security group"
-  default     = "ec2-test"
+  default     = "sg-062cdcb1e2ba25fa8"
 }
 
 variable "tag_name" {
